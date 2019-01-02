@@ -1,0 +1,39 @@
+body {
+	overflow-x: hidden;
+	position: relative;
+	z-index: -1;
+}
+.w-20 {
+	width: 20%;
+}
+@media only screen and (max-width: 576px) {
+	body {
+		padding: 0;
+	}
+	section.content-homepage {
+	padding:0px 5px;
+	overflow: hidden;
+	}
+	.area-tab ul.nav-tabs > li.nav-item > a.nav-link {
+		font-size: 10px;
+		padding: 0 5px;
+	}
+	div.col-4.area-tab {
+		padding: 0;
+	}
+	.tab-content {
+		width: 99%;
+	}
+	span.title_sale {
+	font-size: 12px;
+	}
+	span.title_sale i.fa.fa-shopping-cart {
+	font-size: 13px;
+}
+	nav.navbar {
+		padding: 10px 5px;
+	}
+	footer.area-footer {
+		padding: 0 5px;
+	}
+}

@@ -1,0 +1,61 @@
+footer.area-footer {
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+	padding: 0 50px;
+	border-top:1px solid #f0f0f0;
+}
+h3.categoriesTitle {
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 0.5px;
+	font-size: 25px;
+}
+footer.area-footer a {
+	font-family: 'Acme', sans-serif;
+	text-decoration: none;
+	color: #de707b;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	transition: 0.3s all;
+}
+footer.area-footer a:hover {
+	color: #DC3545;
+	font-size: 17px;
+}
+footer.area-footer ul > li {
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+footer.area-footer ul > li.area-network {
+
+}
+footer.area-footer ul > li.area-network > a {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+footer.area-footer ul > li.area-network > a.bg-fb {
+	background: #6788ce;
+}
+footer.area-footer ul > li.area-network > a.bg-tw {
+	    background: #00ACEE;
+}
+footer.area-footer ul > li.area-network > a.bg-gl {
+	background: #DD4B39;
+}
+footer.area-footer ul > li.area-network > a > i{
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+    font-size: 1em;
+    padding: 0;
+}
+button.btn-send {
+	background-color: #DD4B39;
+	color: #fff;
+	border-radius: 0;
+	font-weight: 600;
+}
